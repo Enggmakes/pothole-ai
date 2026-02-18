@@ -21,7 +21,7 @@ const Navbar = () => {
     >
           <img 
             src="/logo.png"
-            alt="Pothole AI Logo"
+            alt="Pothole AI"
             className="h-8 w-8 object-contain"
           />
           <span className="text-foreground font-bold text-xl">
