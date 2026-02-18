@@ -16,7 +16,8 @@ const DownloadSection = () => (
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#"
+              href="/pothole-ai.apk"
+              download
               className="inline-flex items-center justify-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-2xl font-semibold hover:opacity-90 transition-all text-base"
             >
               <Download size={20} />
