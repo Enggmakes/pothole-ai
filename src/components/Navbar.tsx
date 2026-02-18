@@ -19,11 +19,15 @@ const Navbar = () => {
       transition={{ duration: 0.6 }}
       className="fixed top-0 left-0 right-0 z-50 glass"
     >
-          <img 
-            src="/logo.png"
-            alt="Pothole AI"
-            className="h-8 w-8 object-contain"
-          />
+      <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8">
+
+          {/* Logo */}
+        <a href="#" className="flex items-center gap-2">
+            <img
+              src="/logo.png"
+              alt="Pothole AI Logo"
+              className="h-9 w-9 object-contain"
+            />
           <span className="text-foreground font-bold text-xl">
             Pothole <span className="text-primary">AI</span>
           </span>
